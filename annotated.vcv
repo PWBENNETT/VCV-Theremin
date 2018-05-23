@@ -1,0 +1,983 @@
+{
+  "version": "0.6.0",
+  "modules": [
+    {
+      "plugin": "Core",
+      "version": "0.6.0",
+      "model": "MIDIToCVInterface",
+      "pos": [
+        0,
+        0
+      ],
+      "params": [],
+      "data": {
+        "divisions": [
+          24,
+          6
+        ],
+        "midi": {
+          "driver": 4,
+          "deviceName": "Oxygen 49 0",
+          "channel": -1
+        }
+      }
+    },
+    {
+      "plugin": "Core",
+      "version": "0.6.0",
+      "model": "AudioInterface",
+      "pos": [
+        0,
+        4
+      ],
+      "params": [],
+      "data": {
+        "audio": {
+          "driver": 7,
+          "deviceName": "FL Studio ASIO",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 44100,
+          "blockSize": 256
+        }
+      }
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "version": "0.6.0",
+      "model": "Warps",
+      "pos": [
+        6,
+        2
+      ],
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.0
+        },
+        {
+          "paramId": 1,
+          "value": 0.693000138
+        },
+        {
+          "paramId": 2,
+          "value": 0.0
+        },
+        {
+          "paramId": 3,
+          "value": 1.0
+        },
+        {
+          "paramId": 4,
+          "value": 0.685000062
+        }
+      ],
+      "data": {
+        "shape": 0
+      }
+    },
+    {
+      "plugin": "Fundamental",
+      "version": "0.6.0",
+      "model": "VCO",
+      "pos": [
+        14,
+        0
+      ],
+      "params": [
+        {
+          "paramId": 0,
+          "value": 1.0
+        },
+        {
+          "paramId": 1,
+          "value": 0.0
+        },
+        {
+          "paramId": 2,
+          "value": 0.0
+        },
+        {
+          "paramId": 3,
+          "value": 0.0
+        },
+        {
+          "paramId": 5,
+          "value": 0.5
+        },
+        {
+          "paramId": 4,
+          "value": 0.501000047
+        },
+        {
+          "paramId": 6,
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "version": "0.6.0",
+      "model": "VCO",
+      "pos": [
+        14,
+        1
+      ],
+      "params": [
+        {
+          "paramId": 0,
+          "value": 1.0
+        },
+        {
+          "paramId": 1,
+          "value": 0.0
+        },
+        {
+          "paramId": 2,
+          "value": 0.0
+        },
+        {
+          "paramId": 3,
+          "value": 0.0
+        },
+        {
+          "paramId": 5,
+          "value": 0.5
+        },
+        {
+          "paramId": 4,
+          "value": 0.196500123
+        },
+        {
+          "paramId": 6,
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "plugin": "Befaco",
+      "version": "0.6.0",
+      "model": "SlewLimiter",
+      "pos": [
+        8,
+        0
+      ],
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.0
+        },
+        {
+          "paramId": 1,
+          "value": 0.691500187
+        },
+        {
+          "paramId": 2,
+          "value": 0.692999959
+        }
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "version": "0.6.0",
+      "model": "VCA",
+      "pos": [
+        0,
+        3
+      ],
+      "params": [
+        {
+          "paramId": 0,
+          "value": 1.0
+        },
+        {
+          "paramId": 1,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "version": "0.6.0",
+      "model": "Scope",
+      "pos": [
+        43,
+        4
+      ],
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.0
+        },
+        {
+          "paramId": 1,
+          "value": 0.0
+        },
+        {
+          "paramId": 2,
+          "value": 1.0
+        },
+        {
+          "paramId": 3,
+          "value": 0.0
+        },
+        {
+          "paramId": 4,
+          "value": -16.0
+        },
+        {
+          "paramId": 5,
+          "value": 0.0
+        },
+        {
+          "paramId": 6,
+          "value": 0.0
+        },
+        {
+          "paramId": 7,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "lissajous": 0,
+        "external": 1
+      }
+    },
+    {
+      "plugin": "Fundamental",
+      "version": "0.6.0",
+      "model": "Scope",
+      "pos": [
+        30,
+        4
+      ],
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.0
+        },
+        {
+          "paramId": 1,
+          "value": 0.0
+        },
+        {
+          "paramId": 2,
+          "value": 0.0
+        },
+        {
+          "paramId": 3,
+          "value": 0.0
+        },
+        {
+          "paramId": 4,
+          "value": -16.0
+        },
+        {
+          "paramId": 5,
+          "value": 0.0
+        },
+        {
+          "paramId": 6,
+          "value": 0.0
+        },
+        {
+          "paramId": 7,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "lissajous": 1,
+        "external": 0
+      }
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "version": "0.6.0",
+      "model": "Kinks",
+      "pos": [
+        24,
+        1
+      ],
+      "params": []
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "version": "0.6.0",
+      "model": "Kinks",
+      "pos": [
+        24,
+        0
+      ],
+      "params": []
+    },
+    {
+      "plugin": "Fundamental",
+      "version": "0.6.0",
+      "model": "VCA",
+      "pos": [
+        0,
+        2
+      ],
+      "params": [
+        {
+          "paramId": 0,
+          "value": 1.0
+        },
+        {
+          "paramId": 1,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "plugin": "Befaco",
+      "version": "0.6.0",
+      "model": "SlewLimiter",
+      "pos": [
+        32,
+        0
+      ],
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.505000055
+        },
+        {
+          "paramId": 1,
+          "value": 0.531000316
+        },
+        {
+          "paramId": 2,
+          "value": 0.547500134
+        }
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "version": "0.6.0",
+      "model": "VCF",
+      "pos": [
+        6,
+        3
+      ],
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.569499969
+        },
+        {
+          "paramId": 1,
+          "value": 0.5
+        },
+        {
+          "paramId": 2,
+          "value": 0.0
+        },
+        {
+          "paramId": 3,
+          "value": 1.0
+        },
+        {
+          "paramId": 4,
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "plugin": "Core",
+      "version": "0.6.0",
+      "model": "MIDIToCVInterface",
+      "pos": [
+        0,
+        1
+      ],
+      "params": [],
+      "data": {
+        "divisions": [
+          24,
+          6
+        ],
+        "midi": {
+          "driver": 4,
+          "deviceName": "nanoKEY2 1",
+          "channel": -1
+        }
+      }
+    },
+    {
+      "plugin": "Befaco",
+      "version": "0.6.0",
+      "model": "SlewLimiter",
+      "pos": [
+        8,
+        1
+      ],
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.0
+        },
+        {
+          "paramId": 1,
+          "value": 0.69599998
+        },
+        {
+          "paramId": 2,
+          "value": 0.692999959
+        }
+      ]
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "version": "0.6.0",
+      "model": "Kinks",
+      "pos": [
+        28,
+        0
+      ],
+      "params": []
+    },
+    {
+      "plugin": "Fundamental",
+      "version": "0.6.0",
+      "model": "VCMixer",
+      "pos": [
+        38,
+        0
+      ],
+      "params": [
+        {
+          "paramId": 0,
+          "value": 2.0
+        },
+        {
+          "paramId": 1,
+          "value": 0.204999685
+        },
+        {
+          "paramId": 2,
+          "value": 1.0
+        },
+        {
+          "paramId": 3,
+          "value": 1.0
+        },
+        {
+          "paramId": 4,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "plugin": "LOGinstruments",
+      "version": "0.6.0",
+      "model": "Speck",
+      "pos": [
+        10,
+        4
+      ],
+      "params": [
+        {
+          "paramId": 0,
+          "value": -1.0
+        },
+        {
+          "paramId": 1,
+          "value": 0.0
+        },
+        {
+          "paramId": 2,
+          "value": -1.0
+        },
+        {
+          "paramId": 3,
+          "value": 0.0
+        },
+        {
+          "paramId": 4,
+          "value": 1.01049995
+        },
+        {
+          "paramId": 5,
+          "value": 0.0
+        },
+        {
+          "paramId": 6,
+          "value": 0.0120000001
+        },
+        {
+          "paramId": 7,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "linLog": 1
+      }
+    },
+    {
+      "plugin": "Core",
+      "version": "0.6.0",
+      "model": "Notes",
+      "pos": [
+        69,
+        0
+      ],
+      "params": [],
+      "text": "Primary Antenna and Volume Antenna"
+    },
+    {
+      "plugin": "Core",
+      "version": "0.6.0",
+      "model": "Notes",
+      "pos": [
+        69,
+        1
+      ],
+      "params": [],
+      "text": "Reference (\"Tuning\") Oscillator"
+    },
+    {
+      "plugin": "Core",
+      "version": "0.6.0",
+      "model": "Notes",
+      "pos": [
+        69,
+        2
+      ],
+      "params": [],
+      "text": "Mixer"
+    },
+    {
+      "plugin": "Core",
+      "version": "0.6.0",
+      "model": "Notes",
+      "pos": [
+        69,
+        3
+      ],
+      "params": [],
+      "text": "Low Pass Filter"
+    },
+    {
+      "plugin": "Core",
+      "version": "0.6.0",
+      "model": "Notes",
+      "pos": [
+        69,
+        4
+      ],
+      "params": [],
+      "text": "Output (and Analysis)"
+    }
+  ],
+  "wires": [
+    {
+      "color": {
+        "r": 0.788235366,
+        "g": 0.0941176564,
+        "b": 0.278431386,
+        "a": 1.0
+      },
+      "outputModuleId": 3,
+      "outputId": 0,
+      "inputModuleId": 10,
+      "inputId": 0
+    },
+    {
+      "color": {
+        "r": 0.0352941193,
+        "g": 0.525490224,
+        "b": 0.678431392,
+        "a": 1.0
+      },
+      "outputModuleId": 0,
+      "outputId": 0,
+      "inputModuleId": 5,
+      "inputId": 2
+    },
+    {
+      "color": {
+        "r": 0.788235366,
+        "g": 0.717647076,
+        "b": 0.054901965,
+        "a": 1.0
+      },
+      "outputModuleId": 5,
+      "outputId": 0,
+      "inputModuleId": 3,
+      "inputId": 0
+    },
+    {
+      "color": {
+        "r": 0.0352941193,
+        "g": 0.525490224,
+        "b": 0.678431392,
+        "a": 1.0
+      },
+      "outputModuleId": 0,
+      "outputId": 1,
+      "inputModuleId": 12,
+      "inputId": 2
+    },
+    {
+      "color": {
+        "r": 0.0470588282,
+        "g": 0.556862772,
+        "b": 0.0823529437,
+        "a": 1.0
+      },
+      "outputModuleId": 2,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 2
+    },
+    {
+      "color": {
+        "r": 0.0352941193,
+        "g": 0.525490224,
+        "b": 0.678431392,
+        "a": 1.0
+      },
+      "outputModuleId": 4,
+      "outputId": 0,
+      "inputModuleId": 9,
+      "inputId": 0
+    },
+    {
+      "color": {
+        "r": 0.788235366,
+        "g": 0.0941176564,
+        "b": 0.278431386,
+        "a": 1.0
+      },
+      "outputModuleId": 9,
+      "outputId": 5,
+      "inputModuleId": 4,
+      "inputId": 1
+    },
+    {
+      "color": {
+        "r": 0.788235366,
+        "g": 0.0941176564,
+        "b": 0.278431386,
+        "a": 1.0
+      },
+      "outputModuleId": 9,
+      "outputId": 1,
+      "inputModuleId": 2,
+      "inputId": 5
+    },
+    {
+      "color": {
+        "r": 0.0352941193,
+        "g": 0.525490224,
+        "b": 0.678431392,
+        "a": 1.0
+      },
+      "outputModuleId": 10,
+      "outputId": 1,
+      "inputModuleId": 2,
+      "inputId": 4
+    },
+    {
+      "color": {
+        "r": 0.788235366,
+        "g": 0.0941176564,
+        "b": 0.278431386,
+        "a": 1.0
+      },
+      "outputModuleId": 3,
+      "outputId": 3,
+      "inputModuleId": 7,
+      "inputId": 2
+    },
+    {
+      "color": {
+        "r": 0.788235366,
+        "g": 0.0941176564,
+        "b": 0.278431386,
+        "a": 1.0
+      },
+      "outputModuleId": 11,
+      "outputId": 0,
+      "inputModuleId": 8,
+      "inputId": 0
+    },
+    {
+      "color": {
+        "r": 0.0470588282,
+        "g": 0.556862772,
+        "b": 0.0823529437,
+        "a": 1.0
+      },
+      "outputModuleId": 11,
+      "outputId": 1,
+      "inputModuleId": 8,
+      "inputId": 1
+    },
+    {
+      "color": {
+        "r": 0.788235366,
+        "g": 0.0941176564,
+        "b": 0.278431386,
+        "a": 1.0
+      },
+      "outputModuleId": 13,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 0
+    },
+    {
+      "color": {
+        "r": 0.0470588282,
+        "g": 0.556862772,
+        "b": 0.0823529437,
+        "a": 1.0
+      },
+      "outputModuleId": 13,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 1
+    },
+    {
+      "color": {
+        "r": 0.788235366,
+        "g": 0.0941176564,
+        "b": 0.278431386,
+        "a": 1.0
+      },
+      "outputModuleId": 0,
+      "outputId": 0,
+      "inputModuleId": 13,
+      "inputId": 0
+    },
+    {
+      "color": {
+        "r": 0.0470588282,
+        "g": 0.556862772,
+        "b": 0.0823529437,
+        "a": 1.0
+      },
+      "outputModuleId": 15,
+      "outputId": 0,
+      "inputModuleId": 4,
+      "inputId": 0
+    },
+    {
+      "color": {
+        "r": 0.0352941193,
+        "g": 0.525490224,
+        "b": 0.678431392,
+        "a": 1.0
+      },
+      "outputModuleId": 14,
+      "outputId": 0,
+      "inputModuleId": 15,
+      "inputId": 2
+    },
+    {
+      "color": {
+        "r": 0.788235366,
+        "g": 0.717647076,
+        "b": 0.054901965,
+        "a": 1.0
+      },
+      "outputModuleId": 4,
+      "outputId": 0,
+      "inputModuleId": 11,
+      "inputId": 2
+    },
+    {
+      "color": {
+        "r": 0.788235366,
+        "g": 0.0941176564,
+        "b": 0.278431386,
+        "a": 1.0
+      },
+      "outputModuleId": 3,
+      "outputId": 0,
+      "inputModuleId": 11,
+      "inputId": 5
+    },
+    {
+      "color": {
+        "r": 0.788235366,
+        "g": 0.717647076,
+        "b": 0.054901965,
+        "a": 1.0
+      },
+      "outputModuleId": 13,
+      "outputId": 0,
+      "inputModuleId": 18,
+      "inputId": 0
+    },
+    {
+      "color": {
+        "r": 0.788235366,
+        "g": 0.717647076,
+        "b": 0.054901965,
+        "a": 1.0
+      },
+      "outputModuleId": 0,
+      "outputId": 2,
+      "inputModuleId": 16,
+      "inputId": 0
+    },
+    {
+      "color": {
+        "r": 0.788235366,
+        "g": 0.0941176564,
+        "b": 0.278431386,
+        "a": 1.0
+      },
+      "outputModuleId": 16,
+      "outputId": 0,
+      "inputModuleId": 12,
+      "inputId": 0
+    },
+    {
+      "color": {
+        "r": 0.0352941193,
+        "g": 0.525490224,
+        "b": 0.678431392,
+        "a": 1.0
+      },
+      "outputModuleId": 16,
+      "outputId": 4,
+      "inputModuleId": 6,
+      "inputId": 1
+    },
+    {
+      "color": {
+        "r": 0.788235366,
+        "g": 0.0941176564,
+        "b": 0.278431386,
+        "a": 1.0
+      },
+      "outputModuleId": 6,
+      "outputId": 0,
+      "inputModuleId": 13,
+      "inputId": 3
+    },
+    {
+      "color": {
+        "r": 0.0352941193,
+        "g": 0.525490224,
+        "b": 0.678431392,
+        "a": 1.0
+      },
+      "outputModuleId": 0,
+      "outputId": 5,
+      "inputModuleId": 16,
+      "inputId": 1
+    },
+    {
+      "color": {
+        "r": 0.788235366,
+        "g": 0.0941176564,
+        "b": 0.278431386,
+        "a": 1.0
+      },
+      "outputModuleId": 12,
+      "outputId": 0,
+      "inputModuleId": 16,
+      "inputId": 2
+    },
+    {
+      "color": {
+        "r": 0.0470588282,
+        "g": 0.556862772,
+        "b": 0.0823529437,
+        "a": 1.0
+      },
+      "outputModuleId": 12,
+      "outputId": 0,
+      "inputModuleId": 11,
+      "inputId": 4
+    },
+    {
+      "color": {
+        "r": 0.0352941193,
+        "g": 0.525490224,
+        "b": 0.678431392,
+        "a": 1.0
+      },
+      "outputModuleId": 12,
+      "outputId": 0,
+      "inputModuleId": 11,
+      "inputId": 1
+    },
+    {
+      "color": {
+        "r": 0.788235366,
+        "g": 0.0941176564,
+        "b": 0.278431386,
+        "a": 1.0
+      },
+      "outputModuleId": 0,
+      "outputId": 4,
+      "inputModuleId": 17,
+      "inputId": 2
+    },
+    {
+      "color": {
+        "r": 0.0470588282,
+        "g": 0.556862772,
+        "b": 0.0823529437,
+        "a": 1.0
+      },
+      "outputModuleId": 10,
+      "outputId": 5,
+      "inputModuleId": 17,
+      "inputId": 1
+    },
+    {
+      "color": {
+        "r": 0.0352941193,
+        "g": 0.525490224,
+        "b": 0.678431392,
+        "a": 1.0
+      },
+      "outputModuleId": 17,
+      "outputId": 0,
+      "inputModuleId": 3,
+      "inputId": 1
+    },
+    {
+      "color": {
+        "r": 0.788235366,
+        "g": 0.717647076,
+        "b": 0.054901965,
+        "a": 1.0
+      },
+      "outputModuleId": 18,
+      "outputId": 0,
+      "inputModuleId": 7,
+      "inputId": 1
+    },
+    {
+      "color": {
+        "r": 0.788235366,
+        "g": 0.0941176564,
+        "b": 0.278431386,
+        "a": 1.0
+      },
+      "outputModuleId": 3,
+      "outputId": 0,
+      "inputModuleId": 9,
+      "inputId": 3
+    },
+    {
+      "color": {
+        "r": 0.0470588282,
+        "g": 0.556862772,
+        "b": 0.0823529437,
+        "a": 1.0
+      },
+      "outputModuleId": 4,
+      "outputId": 0,
+      "inputModuleId": 10,
+      "inputId": 3
+    }
+  ]
+}
