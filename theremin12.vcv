@@ -27,7 +27,7 @@
       "version": "0.6.0",
       "model": "AudioInterface",
       "pos": [
-        34,
+        42,
         1
       ],
       "params": [],
@@ -182,7 +182,7 @@
       "version": "0.6.0",
       "model": "VCA",
       "pos": [
-        20,
+        28,
         1
       ],
       "params": [
@@ -357,13 +357,13 @@
       "version": "0.6.0",
       "model": "VCF",
       "pos": [
-        26,
+        34,
         1
       ],
       "params": [
         {
           "paramId": 0,
-          "value": 0.671499968
+          "value": 0.569499969
         },
         {
           "paramId": 1,
@@ -452,7 +452,7 @@
         },
         {
           "paramId": 1,
-          "value": 0.351999938
+          "value": 0.204999685
         },
         {
           "paramId": 2,
@@ -519,7 +519,7 @@
       "version": "0.6.7",
       "model": "BlankPanel8",
       "pos": [
-        44,
+        20,
         1
       ],
       "params": []
