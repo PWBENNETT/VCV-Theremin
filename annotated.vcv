@@ -27,7 +27,7 @@
       "version": "0.6.0",
       "model": "AudioInterface",
       "pos": [
-        0,
+        6,
         4
       ],
       "params": [],
@@ -47,7 +47,7 @@
       "version": "0.6.0",
       "model": "Warps",
       "pos": [
-        6,
+        0,
         2
       ],
       "params": [
@@ -201,7 +201,7 @@
       "version": "0.6.0",
       "model": "Scope",
       "pos": [
-        43,
+        49,
         4
       ],
       "params": [
@@ -248,7 +248,7 @@
       "version": "0.6.0",
       "model": "Scope",
       "pos": [
-        30,
+        36,
         4
       ],
       "params": [
@@ -316,7 +316,7 @@
       "model": "VCA",
       "pos": [
         0,
-        2
+        4
       ],
       "params": [
         {
@@ -473,7 +473,7 @@
       "version": "0.6.0",
       "model": "Speck",
       "pos": [
-        10,
+        16,
         4
       ],
       "params": [
@@ -519,55 +519,55 @@
       "version": "0.6.0",
       "model": "Notes",
       "pos": [
-        69,
+        48,
         0
       ],
       "params": [],
-      "text": "Primary Antenna and Volume Antenna"
+      "text": "Primary Antenna and Volume Antenna. Be sure to cycle the pitch bend and mod wheel before trying to play anything. Mod wheel sets max volume, velocity controls the speed at which you reach that volume."
     },
     {
       "plugin": "Core",
       "version": "0.6.0",
       "model": "Notes",
       "pos": [
-        69,
+        28,
         1
       ],
       "params": [],
-      "text": "Reference (\"Tuning\") Oscillator"
+      "text": "Reference (\"Tuning\") Oscillator. You should not need to change this, but feel free to hook the MIDI input up to a second (different) keyboard to see what happens."
     },
     {
       "plugin": "Core",
       "version": "0.6.0",
       "model": "Notes",
       "pos": [
-        69,
+        10,
         2
       ],
       "params": [],
-      "text": "Mixer"
+      "text": "That ominously simple blob known only as the \"Mixer\". An adjustable ring modulator."
     },
     {
       "plugin": "Core",
       "version": "0.6.0",
       "model": "Notes",
       "pos": [
-        69,
+        14,
         3
       ],
       "params": [],
-      "text": "Low Pass Filter"
+      "text": "Low Pass Filter. Traditionally used to keep RF interference out, but also useful for making sure the audio waveform doesn't get too screechy."
     },
     {
       "plugin": "Core",
       "version": "0.6.0",
       "model": "Notes",
       "pos": [
-        69,
+        62,
         4
       ],
       "params": [],
-      "text": "Output (and Analysis)"
+      "text": "Output (and Analysis). Watch the pretty graphs."
     }
   ],
   "wires": [
@@ -950,7 +950,7 @@
         "b": 0.054901965,
         "a": 1.0
       },
-      "outputModuleId": 18,
+      "outputModuleId": 13,
       "outputId": 0,
       "inputModuleId": 7,
       "inputId": 1
