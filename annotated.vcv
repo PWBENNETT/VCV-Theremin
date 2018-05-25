@@ -57,7 +57,7 @@
         },
         {
           "paramId": 1,
-          "value": 0.67200011
+          "value": 0.680000305
         },
         {
           "paramId": 2,
@@ -192,7 +192,7 @@
         },
         {
           "paramId": 1,
-          "value": 1.0
+          "value": 0.5
         }
       ]
     },
@@ -316,7 +316,7 @@
       "params": [
         {
           "paramId": 0,
-          "value": 0.668499827
+          "value": 0.648999393
         },
         {
           "paramId": 1,
@@ -476,7 +476,7 @@
         0
       ],
       "params": [],
-      "text": "Primary Antenna and Volume Antenna. Be sure to cycle the pitch bend and mod wheel before trying to play anything. Mod wheel sets max volume, velocity controls the speed at which you reach that volume."
+      "text": "Primary Antenna and Volume Antenna. Be sure to cycle the pitch bend and mod wheel before trying to play anything. Mod wheel sets Modulation Algorithm, rather than Amount."
     },
     {
       "plugin": "Core",
@@ -893,18 +893,6 @@
     },
     {
       "color": {
-        "r": 0.788235366,
-        "g": 0.0941176564,
-        "b": 0.278431386,
-        "a": 1.0
-      },
-      "outputModuleId": 0,
-      "outputId": 0,
-      "inputModuleId": 12,
-      "inputId": 0
-    },
-    {
-      "color": {
         "r": 0.0470588282,
         "g": 0.556862772,
         "b": 0.0823529437,
@@ -982,34 +970,10 @@
         "b": 0.678431392,
         "a": 1.0
       },
-      "outputModuleId": 15,
-      "outputId": 4,
-      "inputModuleId": 6,
-      "inputId": 1
-    },
-    {
-      "color": {
-        "r": 0.0352941193,
-        "g": 0.525490224,
-        "b": 0.678431392,
-        "a": 1.0
-      },
       "outputModuleId": 0,
       "outputId": 5,
-      "inputModuleId": 15,
-      "inputId": 1
-    },
-    {
-      "color": {
-        "r": 0.788235366,
-        "g": 0.0941176564,
-        "b": 0.278431386,
-        "a": 1.0
-      },
-      "outputModuleId": 11,
-      "outputId": 0,
-      "inputModuleId": 15,
-      "inputId": 2
+      "inputModuleId": 6,
+      "inputId": 5
     },
     {
       "color": {
@@ -1261,6 +1225,42 @@
       "outputModuleId": 6,
       "outputId": 0,
       "inputModuleId": 17,
+      "inputId": 0
+    },
+    {
+      "color": {
+        "r": 0.788235366,
+        "g": 0.717647076,
+        "b": 0.054901965,
+        "a": 1.0
+      },
+      "outputModuleId": 11,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 1
+    },
+    {
+      "color": {
+        "r": 0.788235366,
+        "g": 0.0941176564,
+        "b": 0.278431386,
+        "a": 1.0
+      },
+      "outputModuleId": 6,
+      "outputId": 1,
+      "inputModuleId": 2,
+      "inputId": 2
+    },
+    {
+      "color": {
+        "r": 0.0470588282,
+        "g": 0.556862772,
+        "b": 0.0823529437,
+        "a": 1.0
+      },
+      "outputModuleId": 5,
+      "outputId": 0,
+      "inputModuleId": 12,
       "inputId": 0
     }
   ]
