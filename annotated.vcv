@@ -1672,18 +1672,6 @@
     {
       "color": {
         "r": 0.788235366,
-        "g": 0.717647076,
-        "b": 0.054901965,
-        "a": 1.0
-      },
-      "outputModuleId": 30,
-      "outputId": 0,
-      "inputModuleId": 32,
-      "inputId": 2
-    },
-    {
-      "color": {
-        "r": 0.788235366,
         "g": 0.0941176564,
         "b": 0.278431386,
         "a": 1.0
@@ -1704,18 +1692,6 @@
       "outputId": 5,
       "inputModuleId": 2,
       "inputId": 5
-    },
-    {
-      "color": {
-        "r": 0.788235366,
-        "g": 0.0941176564,
-        "b": 0.278431386,
-        "a": 1.0
-      },
-      "outputModuleId": 31,
-      "outputId": 7,
-      "inputModuleId": 32,
-      "inputId": 4
     },
     {
       "color": {
@@ -1811,6 +1787,18 @@
       "outputModuleId": 31,
       "outputId": 7,
       "inputModuleId": 28,
+      "inputId": 2
+    },
+    {
+      "color": {
+        "r": 0.0352941193,
+        "g": 0.525490224,
+        "b": 0.678431392,
+        "a": 1.0
+      },
+      "outputModuleId": 29,
+      "outputId": 7,
+      "inputModuleId": 32,
       "inputId": 2
     }
   ]
